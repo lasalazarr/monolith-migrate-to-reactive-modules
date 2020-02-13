@@ -8,3 +8,6 @@ This repository is used to explain the following talk:
 In this session, attendees will learn about a real-world evolution to a reactive way; we will show how we migrate a huge EAR Core Banking Application covering tips and tricks of an experience of an evolution the Application and how we evolve to a modern reactive modules; tips, tricks, pros, cons and the reasons for being involved on move forward and present sample code and explain the security concerns on this evolution. We will be using snippets code based on JAVA, JWT, JWS, Auth0, Spring Boot, Reactor and Webflux deployed to Cloud.
 
 # Requirements
+
+- JDK 11 or superior
+- Docker to deploy as containarzed Application
