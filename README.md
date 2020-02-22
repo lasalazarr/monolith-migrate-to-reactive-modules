@@ -9,5 +9,13 @@ In this session, attendees will learn about a real-world evolution to a reactive
 
 # Requirements
 
-- JDK 11 or superior
-- Docker to deploy as containarzed Application
+- JDK 11 or 12; for run on JDK 13 or 14 there is an error for gradle you can refer to (https://github.com/gradle/gradle/issues/10248)
+- Docker to deploy as Containerize Applications
+
+# Steps
+
+## Reactive API and Blocked JDBC Connection
+
+At the Master branch the application is running with Webflux over Netty but producing blocking threads to connect via JDBC to the Database. 
+
+## Reactive API and Blocked JDBC Connection
