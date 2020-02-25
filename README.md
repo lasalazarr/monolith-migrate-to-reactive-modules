@@ -9,8 +9,9 @@ In this session, attendees will learn about a real-world evolution to a reactive
 
 # Requirements
 
-- JDK 11 or 12; for run on JDK 13 or 14 there is an error for gradle you can refer to (https://github.com/gradle/gradle/issues/10248)
+- JDK 11 or 12; for run on JDK 13 or 14 there is an error for gradle you can refer to the [Issue](https://github.com/gradle/gradle/issues/10248)
 - Docker to deploy as Containerize Applications
+- [BlockHound](https://github.com/reactor/BlockHound)
 
 # Steps
 
