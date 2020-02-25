@@ -14,6 +14,16 @@ repositories {
 
 dependencies {
 	//implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	//Lombok
+	compileOnly 'org.projectlombok:lombok:1.18.10'
+	annotationProcessor 'org.projectlombok:lombok:1.18.10'
+	testImplementation 'org.projectlombok:lombok:1.18.10'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.10'
+	//Swagger
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0-SNAPSHOT'
+	implementation group: 'io.springfox', name: 'springfox-spring-webflux', version: '3.0.0-SNAPSHOT'
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0-SNAPSHOT'
+	testCompile 'io.projectreactor.tools:blockhound:$LATEST_RELEASE'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
