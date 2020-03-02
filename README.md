@@ -15,8 +15,20 @@ In this session, attendees will learn about a real-world evolution to a reactive
 
 # Steps
 
-## Reactive API and Blocked JDBC Connection
+## 1) Enterprise Java application that need a JBOSS Aplication Server
+
+At the branch EAR-App
+
+## 2) Spring MVC Rest API and Spring Data to connect to the database
+
+At the branch Spring-MVC
+
+## 3) Reactive API and Blocked JDBC Connection
 
 At the Master branch the application is running with Webflux over Netty but producing blocking threads to connect via JDBC to the Database. 
 
-## Reactive API and Blocked JDBC Connection
+## 4) Reactive API and non blocking R2DBC Connection to the database
+
+At the Full-Reactive branch the application is running with Webflux over Netty with R2DBC conection to a postgreSQL database.
+
+
