@@ -25,10 +25,10 @@ At the branch Spring-MVC
 
 ## 3) Reactive API and Blocked JDBC Connection
 
-At the Master branch the application is running with Webflux over Netty but producing blocking threads to connect via JDBC to the Database. 
+At the reactive-jbdc-bloked branch the application is running with Webflux over Netty but producing blocking threads to connect via JDBC to the Database. 
 
 ## 4) Reactive API and non blocking R2DBC Connection to the database
 
-At the Full-Reactive branch the application is running with Webflux over Netty with R2DBC conection to a postgreSQL database.
+At the Master branch the application is running with Webflux over Netty with R2DBC conection to a postgreSQL database.
 
 
