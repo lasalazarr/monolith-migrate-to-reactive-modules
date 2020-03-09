@@ -6,6 +6,8 @@ import lombok.Data;
 public class Payroll {
 
     private Integer id;
+    private String productCode;
+    private String fromCustomerCode;
     private String fromAccountNumber;
     private String fromAccountType;
     private String toAccountNumber;
