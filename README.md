@@ -41,7 +41,7 @@ At the branch Spring-MVC we just migrate the application to a Spring project and
 
 ### Compile
 
-To compile we are using gradle, run on the console:
+To compile you need gradle instaleed; and then, run on the console:
 
 ``
 gradle bootRun
